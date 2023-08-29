@@ -1,0 +1,44 @@
+.tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  font-size: 1.6rem;
+  border-radius: 8px;
+}
+
+.tab span {
+  font-weight: bold;
+}
+
+.tab input {
+  padding: 1rem;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #d4d4d4;
+}
+
+.tab button {
+  margin-left: 1rem;
+}
+
+.tab input:focus {
+  outline: none;
+}
+
+.gray {
+  background-color: #dddddd;
+  color: #333131;
+}
+
+.green {
+  background-color: #b5f0a4;
+  color: #326e21;
+}
+
+.blue {
+  background-color: #c2d0ff;
+  color: #2e53cc;
+}

@@ -1,0 +1,11 @@
+.list {
+  margin: 1rem 0;
+  max-height: 150px;
+  overflow: auto;
+}
+
+@media (min-width: 800px) {
+  .list {
+    max-height: 300px;
+  }
+}
